@@ -1,0 +1,29 @@
+---
+title: "Leina Intro"
+format: html
+editor: visual
+---
+
+## Cutie
+
+Hi Cutie!! Im here to teach you some of the basics and as we keep talking i'll update this doc!
+
+## Starting up 
+R is pretty weak on its own but it can do basic things like:
+```{r}
+1 + 1
+```
+
+But the real power is when you start to use packages
+
+To use a package normally you have to do two things: 
+-  {install.package()} installs packages but if you already have them it force updates the package (not great)
+-  {library()} Loads the library of a specific package 
+
+I dont like this system so I found this package
+```{r}
+#install.packages('pacman') 
+library(pacman)
+```
+My pacman package is already installed so it just takes computational power to re-install it
+
